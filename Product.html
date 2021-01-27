@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div class="header-left">
+                <a href="Index.html" class="logo"><img src="img/logo.png" alt="logo"><span class="brand">bran<span class="d">d</span></span>
+                </a>
+                <form action="#" class="browse">
+                    <button class="browse">Browse<i class="fa fa-sort-down"></i></button>
+                </form>
+                <form action="#">
+                    <input type="text" class="search" placeholder="Search for item..."><i class="fa fa-search" aria-hidden="true"></i> </form>
+            </div>
+            <div class="header-right">
+                <form action="ShoppingCart.html">
+                    <input type="image" src="img/basket.png" class="cart"></form><a class="my-a" href="#">My account</a> </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">home</a></li>
+            <li><a href="Product.html">man</a></li>
+            <li><a href="Single-Page.html">woman</a>
+                <div class="mega">
+                    <div class="mega__flex">
+                        <h20>woman</h20>
+                        <ul>
+                            <li><a href="#">tops</a></li>
+                            <li><a href="#">dresses</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                            <li><a href="#">denim</a></li>
+                            <li><a href="#">blazers</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                            <li><a href="#">blazers</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega__flex">
+                        <h20>woman</h20>
+                        <ul>
+                            <li><a href="#">tops</a></li>
+                            <li><a href="#">dresses</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                        </ul>
+                        <h20>woman</h20>
+                        <ul>
+                            <li><a href="#">tops</a></li>
+                            <li><a href="#">dresses</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega__flex">
+                        <h20>woman</h20>
+                        <ul>
+                            <li><a href="#">denim</a></li>
+                            <li><a href="#">blazers</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                            <li><a href="#">blazers</a></li>
+                            <li><a href="#">sweaters</a></li>
+                            <li><a href="#">jackets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">accoseriese</a></li>
+            <li><a href="#">featured</a></li>
+            <li><a href="#">hot deals</a></li>
+        </ul>
+    </nav>
+    <div class="container new-arrivals">
+        <p>New arrivels</p>
+        <ul class="breadcrumbs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">New arrivals</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <nav>
+            <ul class="menu-left-product">
+                <li><a href="#">category <i class="fa fa-sort-up"></i></a></li>
+                <div class="mega-menu-left">
+                    <ul>
+                        <li><a href="#">accessories</a></li>
+                        <li><a href="#">bags</a></li>
+                        <li><a href="#">denim</a></li>
+                        <li><a href="#">hoodies & swetshirts</a></li>
+                        <li><a href="#">jackets & coats</a></li>
+                        <li><a href="#">pants</a></li>
+                        <li><a href="#">polos</a></li>
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">sweaters & knits</a></li>
+                        <li><a href="#">t-shirts</a></li>
+                        <li><a href="#">tanks</a></li>
+                    </ul>
+                </div>
+                <li><a href="#">brend <i class="fa fa-sort-up"></i></a></li>
+                <li><a href="#">designer <i class="fa fa-sort-up"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="filters">
+            <div class="filter1">
+                <legend class="name-filter">Trending now</legend>
+                <p class="value-filter">bohemian Floral Lace
+                    <br>Floral Lace bohemian</p>
+            </div>
+
+            <fieldset class="filter1">
+                <legend class="name-filter">size</legend>
+                <label for="xxs" class="size"><input id="xxs" type="checkbox">xxS</label>
+                <label for="xs" class="size"><input id="xs" type="checkbox">xS</label>
+                <label for="s" class="size"><input id="s" type="checkbox">S</label>
+                <label for="m" class="size"><input id="m" type="checkbox">m</label>
+                <br><label for="l" class="size"><input id="l" type="checkbox">l</label>
+                <label for="xl" class="size"><input id="xl" type="checkbox">xl</label>
+                <label for="xxl" class="size"><input id="xxl" type="checkbox">xxl</label>
+            </fieldset>
+
+            <div class="filter1">
+                <legend for="range" class="name-filter">Price</legend>
+                <input id="range" type="range" value="10" step="0.1">
+                <br><output name="result" for="range">&#36;52</output>
+                <output name="result" for="range">&#36;400</output>
+            </div>
+        </div>
+
+        <div class="filter2">
+            <buttom class="sort">Sort by</buttom>
+            <select class="select"><option>Name</option></select>
+            <buttom class="sort">Show</buttom>
+            <select class="select"><option>09</option></select>
+        </div>
+
+        <div class="inline product-items">
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod1.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart</a></div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod2.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Card3.jpg">
+                <p>mango people</p> </a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+        </div>
+        <div class="inline product-items">
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod1.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart</a></div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod2.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Card3.jpg">
+                <p>mango people</p> </a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+        </div>
+        <div class="inline product-items">
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod1.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart</a></div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Prod2.png">
+                <p>mango people</p></a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+            <div class="item"><a class="product-link" href="/Single-Page.html"><img src="img/Card3.jpg">
+                <p>mango people</p> </a>
+                <span>&#36;52</span>
+                <a class="add-to-cart" href="Checkout.html">
+                add to cart </a>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <a href="#"><i class="fa fa-angle-left"></i></a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">...</a>
+            <a href="#">20</a>
+            <a href="#"><i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <form action="#">
+            <button class="view-all">View all</button></form>
+    </div>
+       
+       
+        <div class="container banner-info-row">
+            <div class="banner-info1">
+               <img src="img/icon-car.png" class="banner-icon">
+                <br><h10>free delivery</h10>
+                <p>Worlwide delivery on all.Authorit
+                    tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
+            <div class="banner-info1">
+               <img src="img/icon-percent.png" class="banner-icon">
+                <br><h10>sales & discounts</h10>
+                <p>Worlwide delivery on all.Authorit
+                    tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
+            <div class="banner-info1">
+               <img src="img/icon-crown.png" class="banner-icon">
+                <br><h10>Quality assurance</h10>
+                <p>Worlwide delivery on all.Authorit
+                    tively morph next-generation innov
+                    tion with extensive models.</p>
+            </div>
+        </div>
+
+   
+    <div class="container subscribe-banner">
+        <div class="container subscribe-banner-flex">
+            <div class="speech-left">
+                <div class="speech-left-flex"> <img src="img/girl-head.png" class="img-speech">
+                    <div class="speech-flex">
+                        <p class="speech">"Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            <wbr>a pulvinar purus condimentum a. Aliquam condimentum
+                            <wbr>mattis neque sed pretium" </p>
+                        <p class="speech-sign">Bin Burhan <span>Dhaka, bd</span></p>
+                    </div>
+                    <div class="subscribe-right-flex">
+                        <h12>subscribe </h12>
+                        <h13>for our promotion</h13>
+                        <form action="#">
+                            <input type="search" class="search-subscribe" placeholder="Enter your email" />
+                            <input type="submit" class="sub-search" value="subscribe"> </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-footer-flex">
+            <div class="logo-footer">
+                <a href="#" class="logo"> <img src="img/logo.png" alt="logo"> <span class="brand">bran<span class="d">d</span></span>
+                </a>
+                <p class="text-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, laboriosam accusantium! Aliquam molestiae labore voluptatum et vero! Tempora totam quaerat cupiditate velit provident ipsum ipsam molestiae eveniet, dicta voluptas.</p>
+                <p class="text-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="menu-footer">
+                <h12>company</h12>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">how it works</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <h12>information</h12>
+                <ul>
+                    <li><a href="#">tearms & condition</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">how to buy</a></li>
+                    <li><a href="#">how to sell</a></li>
+                    <li><a href="#">promotion</a></li>
+                </ul>
+                <h12>shop category</h12>
+                <ul>
+                    <li><a href="#">men</a></li>
+                    <li><a href="#">woman</a></li>
+                    <li><a href="#">child</a></li>
+                    <li><a href="#">apparel</a></li>
+                    <li><a href="#">brows all</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footer-copy">&copy;2017 brand all rights reserved</p>
+            <div class="footer-icon"> <a href="#"><i class="fa fa-footer fa-facebook-f"></i></a> <a href="#"><i class="fa fa-footer fa-twitter"></i></a> <a href="#"><i class="fa fa-footer fa-pinterest-p"></i></a> <a href="#"><i class="fa fa-footer fa-linkedin-in"></i></a> <a href="#"><i class="fa fa-footer fa-google-plus-g"></i></a></div>
+        </footer>
+        </div>
+</body>
+
+</html>
+
